@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,4BAA4B;EAC9C,qBAAqB,EAAE,KAAK;EAC5B,UAAU,EAAE,KAAK;CAEpB;;AAED,AAAA,WAAW,CAAA;EACP,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,4BAA4B;EAC9C,qBAAqB,EAAE,KAAK;EAC5B,UAAU,EAAE,KAAK;CAEpB",
+    "sources": [
+        "werkvier.scss"
+    ],
+    "names": [],
+    "file": "werkvier.css"
+}

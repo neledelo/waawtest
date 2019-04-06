@@ -1,0 +1,83 @@
+.bannerzvb{
+    height: 950px;
+    width: 2300px;
+    background-image: url(images/STEMPELBANNER.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+
+
+
+
+}
+
+
+
+.fotozvb{
+    height: 950px;
+    background-image: url(images/zvblogozwart.jpg);
+    background-attachment: fixed;
+    object-fit: cover;
+    background-size: cover;
+
+}
+
+
+.jumbotrontwee{
+    height: 450px;
+    background-color: #f8f9fa;
+
+    h1{
+        font-family: $font;
+        font-size: 30px;
+        font-weight: 100;
+       
+       
+    }
+
+    h2{
+        font-family: $font;
+        font-size: 45px;
+        font-weight: 400;
+        margin-top: -10px;
+     
+    }
+
+    p{
+        
+        font-family: $font2;
+        font-size: 16px;
+        font-weight: 100;
+        width: 85%;
+        margin-bottom: 80px;
+       
+   
+
+    }
+
+    a{
+        color:black;
+        border: 1px solid black;
+        padding: 15px;
+        text-decoration: none;
+        font-family: $font;
+    }
+
+    a:hover{
+        background-color: black;
+        color:white;
+    }
+    
+}
+
+
+.textar{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.extratext{
+    p{
+        margin-top: 95px;
+    }
+}
+

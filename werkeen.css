@@ -1,0 +1,13 @@
+.bannerar {
+  height: 950px;
+  background-image: url(images/testbuis.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.jumbotrontwee {
+  height: 600px;
+  background-color: #f8f9fa;
+}
+/*# sourceMappingURL=werkeen.css.map */

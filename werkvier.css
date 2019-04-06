@@ -1,0 +1,16 @@
+.bannerkoffie {
+  height: 950px;
+  background-image: url(images/bannerkoffie.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fotokoffie {
+  height: 950px;
+  background-image: url(images/LOGONUMMER11.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=werkvier.css.map */

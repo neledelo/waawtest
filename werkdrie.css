@@ -1,0 +1,14 @@
+.banneraa {
+  height: 950px;
+  background-image: url(images/banneraaaaa.jpg);
+  background-attachment: fixed;
+}
+
+.fotoaa {
+  height: 950px;
+  background-image: url(images/LOGONUMMER11.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=werkdrie.css.map */

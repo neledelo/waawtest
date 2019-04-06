@@ -1,0 +1,54 @@
+.jumbotron-billboard .img {
+  margin-bottom: 0px;
+  background: #000 url(images/STEMPEL.jpg) top center no-repeat;
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 400px) {
+  .jumbotron-billboard .img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron-billboard .img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron-billboard .img {
+    height: 950px;
+  }
+}
+
+.jumbotron h2 {
+  margin-top: 0;
+}
+
+.jumbotron {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=werkvijf.css.map */

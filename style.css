@@ -1,0 +1,704 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+#portfolio .container-fluid {
+  max-width: 1920px;
+}
+
+#portfolio .container-fluid .portfolio-box {
+  position: relative;
+  display: block;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: white;
+  background: black;
+  padding: 200px;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box {
+  padding: 5px;
+}
+
+.rijeen {
+  margin-top: 50px;
+}
+
+.rijeen img {
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray;
+  /* IE5+ */
+  -webkit-filter: grayscale(1);
+  /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .1s;
+}
+
+.rijeen img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+.rijtwee {
+  margin-top: 1px;
+}
+
+.rijtwee img {
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray;
+  /* IE5+ */
+  -webkit-filter: grayscale(1);
+  /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .1s;
+}
+
+.rijtwee img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+.bannerzvb {
+  height: 950px;
+  width: 2300px;
+  background-image: url(images/STEMPELBANNER.jpg);
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+.fotozvb {
+  height: 950px;
+  background-image: url(images/zvblogozwart.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+}
+
+.jumbotrontwee {
+  height: 450px;
+  background-color: #f8f9fa;
+}
+
+.jumbotrontwee h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.jumbotrontwee h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.jumbotrontwee p {
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  width: 85%;
+  margin-bottom: 80px;
+}
+
+.jumbotrontwee a {
+  color: black;
+  border: 1px solid black;
+  padding: 15px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumbotrontwee a:hover {
+  background-color: black;
+  color: white;
+}
+
+.textar {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.extratext p {
+  margin-top: 95px;
+}
+
+body {
+  background-color: black;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact a {
+  color: black;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  width: 60%;
+}
+
+@media (min-width: 576px) {
+  .contact a {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact a {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact a {
+    width: 20%;
+  }
+}
+
+.contact a:hover {
+  background-color: black;
+  color: white;
+}
+
+.contact h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.contact i {
+  color: black;
+  margin-top: 350px;
+  font-size: 40px;
+}
+
+.contact p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 0px;
+}
+
+@media (min-width: 375px) {
+  .getintouch {
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 400px) {
+  .getintouch {
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 576px) {
+  .getintouch {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .getintouch {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .getintouch {
+    margin-top: 0px;
+  }
+}
+
+.bannerar {
+  height: 950px;
+  background-image: url(images/testbuis.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fotoar {
+  height: 950px;
+  background-image: url(images/LOGONUMMER11.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banneraa {
+  height: 950px;
+  background-image: url(images/banneraaaaa.jpg);
+  background-attachment: fixed;
+}
+
+.fotoaa {
+  height: 950px;
+  background-image: url(images/LOGONUMMER11.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bannerkoffie {
+  height: 950px;
+  background-image: url(images/bannerkoffie.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fotokoffie {
+  height: 950px;
+  background-image: url(images/LOGONUMMER11.jpg);
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.jumbotron-billboard .img {
+  margin-bottom: 0px;
+  background: #000 url(images/STEMPEL.jpg) top center no-repeat;
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 400px) {
+  .jumbotron-billboard .img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron-billboard .img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron-billboard .img {
+    height: 950px;
+  }
+}
+
+.jumbotron h2 {
+  margin-top: 0;
+}
+
+.jumbotron {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/*NAVIGATION*/
+body {
+  background-color: #f8f9fa;
+}
+
+.sticky-top {
+  position: fixed;
+  background-color: #f8f9fa;
+  height: 110px;
+  z-index: 1;
+}
+
+.sticky-top a {
+  padding-left: -200px;
+  margin-right: 35px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.sticky-top .navigation {
+  position: absolute;
+  z-index: 1;
+}
+
+@media (min-width: 992px) {
+  .sticky-top .navigation {
+    right: 4%;
+  }
+}
+
+@media (min-width: 375px) {
+  button.navbar-toggler {
+    margin-right: 20px;
+  }
+}
+
+.bg-light {
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.actief {
+  margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+  .actief {
+    margin-top: 0px;
+  }
+}
+
+.logo img {
+  width: 30%;
+}
+
+@media (min-width: 992px) {
+  .logo img {
+    margin-left: 20px;
+  }
+}
+
+/*JUMBOTRON*/
+/* Header Parallax Element Style*/
+.paral {
+  height: 750px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* Paragrapgh for Parallax Section */
+.paral p {
+  font-size: 24px;
+  color: #f5f5f5;
+  text-align: center;
+  line-height: 60px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 100px;
+}
+
+/* Image for Parallax Section */
+.paralsec {
+  background-image: url(images/waaaaaaw.jpg);
+  margin-left: -30px;
+  margin-right: -30px;
+  height: 915px;
+}
+
+.paralsec1 {
+  background-color: #f8f9fa;
+  height: 500px;
+}
+
+.paralsec2 {
+  background-image: url(images/bannervierkopie.jpg);
+  height: 250px;
+  margin-left: -50px;
+  width: 130%;
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .paralsec2 {
+    height: 350px;
+  }
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+/* Add more images for more sections */
+/* Remove Bottom Margin from Jumbotron */
+/*TEXT JUMBOTRON*/
+.partext {
+  height: 420px;
+  background-color: #f8f9fa;
+}
+
+.partext h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@media (min-width: 500px) {
+  .partext h1 {
+    margin-bottom: -25px;
+  }
+}
+
+@media (min-width: 700px) {
+  .partext h1 {
+    margin-bottom: -100px;
+  }
+}
+
+@media (min-width: 800px) {
+  .partext h1 {
+    margin-bottom: -130px;
+  }
+}
+
+@media (min-width: 900px) {
+  .partext h1 {
+    margin-bottom: -200px;
+  }
+}
+
+.partext h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -100px;
+}
+
+.partext p {
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: -70px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+@media (min-width: 500px) {
+  .partext p {
+    margin: 20px;
+    margin-top: -90;
+  }
+}
+
+@media (min-width: 700px) {
+  .partext p {
+    margin: 100px;
+  }
+}
+
+@media (min-width: 800px) {
+  .partext p {
+    margin: 130px;
+  }
+}
+
+@media (min-width: 900px) {
+  .partext p {
+    margin: 200px;
+  }
+}
+
+.partext i {
+  font-size: 30px;
+  font-weight: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+  .partext i i.fab-fa-instagram::before {
+    margin-right: -40px;
+  }
+}
+
+.paralsec h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.titel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.wat p {
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  line-height: 25px;
+  margin-top: -20px;
+}
+
+#footer {
+  bottom: 0;
+  margin-top: 480px;
+  margin-left: 0px;
+  height: 75px;
+  color: white;
+  background-color: black;
+  z-index: 1;
+}
+
+@media (min-width: 576px) {
+  #footer {
+    margin-top: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer {
+    margin-top: 50px;
+  }
+}
+
+#footer p {
+  font-family: "Overpass", sans-serif;
+  font-weight: 100;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer .footer-block {
+  margin: 20px 0;
+}
+/*# sourceMappingURL=style.css.map */
