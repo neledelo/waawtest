@@ -172,6 +172,22 @@ height: 350px;    }
                 margin-bottom: -200px;
             }
 
+            @media(min-width:1200px){
+                margin-bottom: -370px;
+            }
+
+            @media(min-width:1400px){
+                margin-bottom: -470px;
+            }
+
+            @media(min-width:1550px){
+                margin-bottom: -540px;
+            }
+
+            @media(min-width:1583px){
+                margin-bottom: -570px;
+            }
+
         }
 
         h2{
@@ -212,6 +228,21 @@ height: 350px;    }
                 margin: 200px;
             }
 
+            @media(min-width:1200px){
+                margin: 350px;
+            }
+
+            @media(min-width:1400px){
+                margin: 450px;
+            }
+
+            @media(min-width:1550px){
+                margin: 520px;
+            }
+
+            @media(min-width:1583px){
+                margin: 550px;
+            }
         }
 
         i{
